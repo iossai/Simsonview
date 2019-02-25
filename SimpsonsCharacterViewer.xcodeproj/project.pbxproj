@@ -14,6 +14,29 @@
 		0F77AAA121FD891C0003C445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77AA9F21FD891C0003C445 /* LaunchScreen.storyboard */; };
 		0F77AAAC21FD891C0003C445 /* SimpsonsCharacterViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAAB21FD891C0003C445 /* SimpsonsCharacterViewerTests.swift */; };
 		0F77AAB721FD891C0003C445 /* SimpsonsCharacterViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAB621FD891C0003C445 /* SimpsonsCharacterViewerUITests.swift */; };
+		0F77AAC521FD8A4D0003C445 /* Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77AAC421FD8A4D0003C445 /* Ipad.storyboard */; };
+		0F77AAC821FD8BA80003C445 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAC721FD8BA80003C445 /* ListCell.swift */; };
+		0F77AACA21FD8BB60003C445 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAC921FD8BB60003C445 /* GridCell.swift */; };
+		0F77AACD21FD8C640003C445 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AACC21FD8C640003C445 /* DetailsViewController.swift */; };
+		0F77AAD021FD8CF70003C445 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AACF21FD8CF70003C445 /* User.swift */; };
+		0F77AAD521FD8EF80003C445 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAD421FD8EF80003C445 /* Constants.swift */; };
+		0F77AAD821FD8F3D0003C445 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAD721FD8F3D0003C445 /* HomeViewModel.swift */; };
+		0F77AADC21FDA0D70003C445 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAC721FD8BA80003C445 /* ListCell.swift */; };
+		0F77AADD21FDA0D70003C445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AA9821FD891B0003C445 /* ViewController.swift */; };
+		0F77AADE21FDA0D70003C445 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AACF21FD8CF70003C445 /* User.swift */; };
+		0F77AADF21FDA0D70003C445 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAD721FD8F3D0003C445 /* HomeViewModel.swift */; };
+		0F77AAE021FDA0D70003C445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AA9621FD891B0003C445 /* AppDelegate.swift */; };
+		0F77AAE221FDA0D70003C445 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAC921FD8BB60003C445 /* GridCell.swift */; };
+		0F77AAE321FDA0D70003C445 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AACC21FD8C640003C445 /* DetailsViewController.swift */; };
+		0F77AAE521FDA0D70003C445 /* Pods_SimpsonsCharacterViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1973E3D1783320573D5912 /* Pods_SimpsonsCharacterViewer.framework */; };
+		0F77AAE721FDA0D70003C445 /* Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77AAC421FD8A4D0003C445 /* Ipad.storyboard */; };
+		0F77AAE821FDA0D70003C445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77AA9F21FD891C0003C445 /* LaunchScreen.storyboard */; };
+		0F77AAE921FDA0D70003C445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F77AA9D21FD891C0003C445 /* Assets.xcassets */; };
+		0F77AAEA21FDA0D70003C445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77AA9A21FD891B0003C445 /* Main.storyboard */; };
+		0F77AAF221FDA1430003C445 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77AAF121FDA1430003C445 /* Constants.swift */; };
+		931F4939A41BC0155D41B494 /* Pods_SimpsonsCharacterViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3644C3CE717133E4E4C6C54C /* Pods_SimpsonsCharacterViewerUITests.framework */; };
+		B8D38C5810822CDF00AC94B6 /* Pods_SimpsonsCharacterViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1973E3D1783320573D5912 /* Pods_SimpsonsCharacterViewer.framework */; };
+		EF07FEE0EAD677C115E487C2 /* Pods_SimpsonsCharacterViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AEEE4BCBEC53DEB88FDCEE /* Pods_SimpsonsCharacterViewerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009ED4D6127B4A40C4FDD99A /* Pods-SimpsonsCharacterViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsCharacterViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpsonsCharacterViewerTests/Pods-SimpsonsCharacterViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0F77AA9321FD891B0003C445 /* SimpsonsCharacterViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonsCharacterViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F77AA9621FD891B0003C445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F77AA9821FD891B0003C445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +71,24 @@
 		0F77AAB221FD891C0003C445 /* SimpsonsCharacterViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonsCharacterViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F77AAB621FD891C0003C445 /* SimpsonsCharacterViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsCharacterViewerUITests.swift; sourceTree = "<group>"; };
 		0F77AAB821FD891C0003C445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F77AAC421FD8A4D0003C445 /* Ipad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ipad.storyboard; sourceTree = "<group>"; };
+		0F77AAC721FD8BA80003C445 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		0F77AAC921FD8BB60003C445 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		0F77AACC21FD8C640003C445 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0F77AACF21FD8CF70003C445 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F77AAD421FD8EF80003C445 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = SimpsonsCharacterViewer/Versions/SimpsonsCharacterViewer/Constants.swift; sourceTree = SOURCE_ROOT; };
+		0F77AAD721FD8F3D0003C445 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0F77AAEF21FDA0D70003C445 /* TheWireCharacterViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWireCharacterViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F77AAF021FDA0D80003C445 /* SimpsonsCharacterViewer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimpsonsCharacterViewer copy-Info.plist"; path = "/Users/h203330/Desktop/Tests/NewXifinity/SimpsonsCharacterViewer/SimpsonsCharacterViewer copy-Info.plist"; sourceTree = "<absolute>"; };
+		0F77AAF121FDA1430003C445 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		25934D71ECC0264B93EDD9FE /* Pods-SimpsonsCharacterViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsCharacterViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpsonsCharacterViewer/Pods-SimpsonsCharacterViewer.release.xcconfig"; sourceTree = "<group>"; };
+		3644C3CE717133E4E4C6C54C /* Pods_SimpsonsCharacterViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpsonsCharacterViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AEEE4BCBEC53DEB88FDCEE /* Pods_SimpsonsCharacterViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpsonsCharacterViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D40229FD6E4AA729A7CE07 /* Pods-SimpsonsCharacterViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsCharacterViewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpsonsCharacterViewerUITests/Pods-SimpsonsCharacterViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF36FBAFA7A6BCE0DE6204E0 /* Pods-SimpsonsCharacterViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsCharacterViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpsonsCharacterViewerTests/Pods-SimpsonsCharacterViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF1973E3D1783320573D5912 /* Pods_SimpsonsCharacterViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpsonsCharacterViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E661F773B3D897BEAFCC3185 /* Pods-SimpsonsCharacterViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsCharacterViewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpsonsCharacterViewerUITests/Pods-SimpsonsCharacterViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1046CD9DED672169D9AD7E2 /* Pods-SimpsonsCharacterViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsCharacterViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpsonsCharacterViewer/Pods-SimpsonsCharacterViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D38C5810822CDF00AC94B6 /* Pods_SimpsonsCharacterViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF07FEE0EAD677C115E487C2 /* Pods_SimpsonsCharacterViewerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931F4939A41BC0155D41B494 /* Pods_SimpsonsCharacterViewerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F77AAE421FDA0D70003C445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F77AAE521FDA0D70003C445 /* Pods_SimpsonsCharacterViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0132FC505F667724535FFCBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1046CD9DED672169D9AD7E2 /* Pods-SimpsonsCharacterViewer.debug.xcconfig */,
+				25934D71ECC0264B93EDD9FE /* Pods-SimpsonsCharacterViewer.release.xcconfig */,
+				009ED4D6127B4A40C4FDD99A /* Pods-SimpsonsCharacterViewerTests.debug.xcconfig */,
+				BF36FBAFA7A6BCE0DE6204E0 /* Pods-SimpsonsCharacterViewerTests.release.xcconfig */,
+				E661F773B3D897BEAFCC3185 /* Pods-SimpsonsCharacterViewerUITests.debug.xcconfig */,
+				76D40229FD6E4AA729A7CE07 /* Pods-SimpsonsCharacterViewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0F77AA8A21FD891B0003C445 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,9 @@
 				0F77AAAA21FD891C0003C445 /* SimpsonsCharacterViewerTests */,
 				0F77AAB521FD891C0003C445 /* SimpsonsCharacterViewerUITests */,
 				0F77AA9421FD891B0003C445 /* Products */,
+				0132FC505F667724535FFCBB /* Pods */,
+				25D909A9F92FE60D4437595C /* Frameworks */,
+				0F77AAF021FDA0D80003C445 /* SimpsonsCharacterViewer copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +159,7 @@
 				0F77AA9321FD891B0003C445 /* SimpsonsCharacterViewer.app */,
 				0F77AAA721FD891C0003C445 /* SimpsonsCharacterViewerTests.xctest */,
 				0F77AAB221FD891C0003C445 /* SimpsonsCharacterViewerUITests.xctest */,
+				0F77AAEF21FDA0D70003C445 /* TheWireCharacterViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +167,14 @@
 		0F77AA9521FD891B0003C445 /* SimpsonsCharacterViewer */ = {
 			isa = PBXGroup;
 			children = (
+				0F77AAD121FD8D720003C445 /* Versions */,
+				0F77AACE21FD8C9F0003C445 /* Model */,
+				0F77AACB21FD8C400003C445 /* Controller */,
+				0F77AAC621FD8B600003C445 /* View */,
+				0F77AAD621FD8F200003C445 /* ViewModel */,
 				0F77AA9621FD891B0003C445 /* AppDelegate.swift */,
-				0F77AA9821FD891B0003C445 /* ViewController.swift */,
 				0F77AA9A21FD891B0003C445 /* Main.storyboard */,
+				0F77AAC421FD8A4D0003C445 /* Ipad.storyboard */,
 				0F77AA9D21FD891C0003C445 /* Assets.xcassets */,
 				0F77AA9F21FD891C0003C445 /* LaunchScreen.storyboard */,
 				0F77AAA221FD891C0003C445 /* Info.plist */,
@@ -125,6 +200,75 @@
 			path = SimpsonsCharacterViewerUITests;
 			sourceTree = "<group>";
 		};
+		0F77AAC621FD8B600003C445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AAC721FD8BA80003C445 /* ListCell.swift */,
+				0F77AAC921FD8BB60003C445 /* GridCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F77AACB21FD8C400003C445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AA9821FD891B0003C445 /* ViewController.swift */,
+				0F77AACC21FD8C640003C445 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F77AACE21FD8C9F0003C445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AACF21FD8CF70003C445 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F77AAD121FD8D720003C445 /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AAD321FD8DC50003C445 /* TheWireCharacterViewer */,
+				0F77AAD221FD8DA40003C445 /* SimpsonsCharacterViewer */,
+			);
+			path = Versions;
+			sourceTree = "<group>";
+		};
+		0F77AAD221FD8DA40003C445 /* SimpsonsCharacterViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AAD421FD8EF80003C445 /* Constants.swift */,
+			);
+			path = SimpsonsCharacterViewer;
+			sourceTree = "<group>";
+		};
+		0F77AAD321FD8DC50003C445 /* TheWireCharacterViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AAF121FDA1430003C445 /* Constants.swift */,
+			);
+			path = TheWireCharacterViewer;
+			sourceTree = "<group>";
+		};
+		0F77AAD621FD8F200003C445 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F77AAD721FD8F3D0003C445 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		25D909A9F92FE60D4437595C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1973E3D1783320573D5912 /* Pods_SimpsonsCharacterViewer.framework */,
+				70AEEE4BCBEC53DEB88FDCEE /* Pods_SimpsonsCharacterViewerTests.framework */,
+				3644C3CE717133E4E4C6C54C /* Pods_SimpsonsCharacterViewerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F77AABB21FD891C0003C445 /* Build configuration list for PBXNativeTarget "SimpsonsCharacterViewer" */;
 			buildPhases = (
+				B37F0E5959F404ADAC5AB43B /* [CP] Check Pods Manifest.lock */,
 				0F77AA8F21FD891B0003C445 /* Sources */,
 				0F77AA9021FD891B0003C445 /* Frameworks */,
 				0F77AA9121FD891B0003C445 /* Resources */,
+				430DEBA5BC697BBE5A9179EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F77AABE21FD891C0003C445 /* Build configuration list for PBXNativeTarget "SimpsonsCharacterViewerTests" */;
 			buildPhases = (
+				F3FE1EA6D9FF2D80DC9AEF26 /* [CP] Check Pods Manifest.lock */,
 				0F77AAA321FD891C0003C445 /* Sources */,
 				0F77AAA421FD891C0003C445 /* Frameworks */,
 				0F77AAA521FD891C0003C445 /* Resources */,
@@ -167,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F77AAC121FD891C0003C445 /* Build configuration list for PBXNativeTarget "SimpsonsCharacterViewerUITests" */;
 			buildPhases = (
+				6C4B67817D2B1719440D55FF /* [CP] Check Pods Manifest.lock */,
 				0F77AAAE21FD891C0003C445 /* Sources */,
 				0F77AAAF21FD891C0003C445 /* Frameworks */,
 				0F77AAB021FD891C0003C445 /* Resources */,
@@ -181,6 +329,25 @@
 			productReference = 0F77AAB221FD891C0003C445 /* SimpsonsCharacterViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0F77AAD921FDA0D70003C445 /* TheWireCharacterViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F77AAEC21FDA0D70003C445 /* Build configuration list for PBXNativeTarget "TheWireCharacterViewer" */;
+			buildPhases = (
+				0F77AADA21FDA0D70003C445 /* [CP] Check Pods Manifest.lock */,
+				0F77AADB21FDA0D70003C445 /* Sources */,
+				0F77AAE421FDA0D70003C445 /* Frameworks */,
+				0F77AAE621FDA0D70003C445 /* Resources */,
+				0F77AAEB21FDA0D70003C445 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheWireCharacterViewer;
+			productName = SimpsonsCharacterViewer;
+			productReference = 0F77AAEF21FDA0D70003C445 /* TheWireCharacterViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,7 +356,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Honeywell;
+				ORGANIZATIONNAME = Goutham;
 				TargetAttributes = {
 					0F77AA9221FD891B0003C445 = {
 						CreatedOnToolsVersion = 10.0;
@@ -220,6 +387,7 @@
 				0F77AA9221FD891B0003C445 /* SimpsonsCharacterViewer */,
 				0F77AAA621FD891C0003C445 /* SimpsonsCharacterViewerTests */,
 				0F77AAB121FD891C0003C445 /* SimpsonsCharacterViewerUITests */,
+				0F77AAD921FDA0D70003C445 /* TheWireCharacterViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F77AAC521FD8A4D0003C445 /* Ipad.storyboard in Resources */,
 				0F77AAA121FD891C0003C445 /* LaunchScreen.storyboard in Resources */,
 				0F77AA9E21FD891C0003C445 /* Assets.xcassets in Resources */,
 				0F77AA9C21FD891B0003C445 /* Main.storyboard in Resources */,
@@ -249,15 +418,171 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F77AAE621FDA0D70003C445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F77AAE721FDA0D70003C445 /* Ipad.storyboard in Resources */,
+				0F77AAE821FDA0D70003C445 /* LaunchScreen.storyboard in Resources */,
+				0F77AAE921FDA0D70003C445 /* Assets.xcassets in Resources */,
+				0F77AAEA21FDA0D70003C445 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F77AADA21FDA0D70003C445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpsonsCharacterViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F77AAEB21FDA0D70003C445 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpsonsCharacterViewer/Pods-SimpsonsCharacterViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpsonsCharacterViewer/Pods-SimpsonsCharacterViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430DEBA5BC697BBE5A9179EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpsonsCharacterViewer/Pods-SimpsonsCharacterViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpsonsCharacterViewer/Pods-SimpsonsCharacterViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4B67817D2B1719440D55FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpsonsCharacterViewerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B37F0E5959F404ADAC5AB43B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpsonsCharacterViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3FE1EA6D9FF2D80DC9AEF26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpsonsCharacterViewerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F77AA8F21FD891B0003C445 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F77AAC821FD8BA80003C445 /* ListCell.swift in Sources */,
 				0F77AA9921FD891B0003C445 /* ViewController.swift in Sources */,
+				0F77AAD021FD8CF70003C445 /* User.swift in Sources */,
+				0F77AAD821FD8F3D0003C445 /* HomeViewModel.swift in Sources */,
 				0F77AA9721FD891B0003C445 /* AppDelegate.swift in Sources */,
+				0F77AAD521FD8EF80003C445 /* Constants.swift in Sources */,
+				0F77AACA21FD8BB60003C445 /* GridCell.swift in Sources */,
+				0F77AACD21FD8C640003C445 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +599,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F77AAB721FD891C0003C445 /* SimpsonsCharacterViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F77AADB21FDA0D70003C445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F77AADC21FDA0D70003C445 /* ListCell.swift in Sources */,
+				0F77AADD21FDA0D70003C445 /* ViewController.swift in Sources */,
+				0F77AADE21FDA0D70003C445 /* User.swift in Sources */,
+				0F77AADF21FDA0D70003C445 /* HomeViewModel.swift in Sources */,
+				0F77AAE021FDA0D70003C445 /* AppDelegate.swift in Sources */,
+				0F77AAE221FDA0D70003C445 /* GridCell.swift in Sources */,
+				0F77AAE321FDA0D70003C445 /* DetailsViewController.swift in Sources */,
+				0F77AAF221FDA1430003C445 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +770,7 @@
 		};
 		0F77AABC21FD891C0003C445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1046CD9DED672169D9AD7E2 /* Pods-SimpsonsCharacterViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,7 +779,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.SimpsonsCharacterViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SimpsonsCharacterViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +788,7 @@
 		};
 		0F77AABD21FD891C0003C445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25934D71ECC0264B93EDD9FE /* Pods-SimpsonsCharacterViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +797,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.SimpsonsCharacterViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SimpsonsCharacterViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +806,7 @@
 		};
 		0F77AABF21FD891C0003C445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009ED4D6127B4A40C4FDD99A /* Pods-SimpsonsCharacterViewerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +827,7 @@
 		};
 		0F77AAC021FD891C0003C445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF36FBAFA7A6BCE0DE6204E0 /* Pods-SimpsonsCharacterViewerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +848,7 @@
 		};
 		0F77AAC221FD891C0003C445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E661F773B3D897BEAFCC3185 /* Pods-SimpsonsCharacterViewerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +868,7 @@
 		};
 		0F77AAC321FD891C0003C445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D40229FD6E4AA729A7CE07 /* Pods-SimpsonsCharacterViewerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +883,42 @@
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SimpsonsCharacterViewer;
+			};
+			name = Release;
+		};
+		0F77AAED21FDA0D70003C445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1046CD9DED672169D9AD7E2 /* Pods-SimpsonsCharacterViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SimpsonsCharacterViewer copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F77AAEE21FDA0D70003C445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25934D71ECC0264B93EDD9FE /* Pods-SimpsonsCharacterViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SimpsonsCharacterViewer copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -575,6 +957,15 @@
 			buildConfigurations = (
 				0F77AAC221FD891C0003C445 /* Debug */,
 				0F77AAC321FD891C0003C445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F77AAEC21FDA0D70003C445 /* Build configuration list for PBXNativeTarget "TheWireCharacterViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F77AAED21FDA0D70003C445 /* Debug */,
+				0F77AAEE21FDA0D70003C445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

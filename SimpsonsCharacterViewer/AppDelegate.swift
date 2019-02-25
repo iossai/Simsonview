@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SimpsonsCharacterViewer
 //
-//  Created by Gopalasetti, Siva on 27/01/19.
-//  Copyright © 2019 Honeywell. All rights reserved.
+//  Created by Sai Goutham on 27/01/19.
+//  Copyright © 2019 DataQ. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var storyboard: UIStoryboard!
+        let device = UIDevice.current.userInterfaceIdiom
+        if device == .pad {
+            storyboard = UIStoryboard(name: "Ipad", bundle: nil)
+        } else {
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+        }
+        window?.rootViewController = storyboard.instantiateInitialViewController()
+        window?.makeKeyAndVisible()
+
         return true
     }
 

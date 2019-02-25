@@ -2,8 +2,8 @@
 //  SimpsonsCharacterViewerUITests.swift
 //  SimpsonsCharacterViewerUITests
 //
-//  Created by Gopalasetti, Siva on 27/01/19.
-//  Copyright © 2019 Honeywell. All rights reserved.
+//  Created by Sai Goutham  on 27/01/19.
+//  Copyright © 2019 DataQ. All rights reserved.
 //
 
 import XCTest
